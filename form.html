@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <form action="" >
         <label for="name"></label>
         <input type="text" 
                id="name" name="name" 
@@ -32,7 +32,6 @@
         <input type="range">
         <input type="reset">
         <input type="search">
-        <input type="submit">
         <input type="tel">
         <input type="time">
         <input type="url">
@@ -57,6 +56,31 @@
         </select>
         <button type="button" autofocus></button>
         <button autocomplete="on"></button>
+        <button disabled></button>
+        <input type="submit">
+        <button formenctype=""></button>
+        <progress id="file" max="100" value="70"> 70% </progress>
+        <fieldset>
+            <legend>Choose your favorite monster</legend>
+        
+            <input type="radio" id="kraken" name="monster">
+            <label for="kraken">Kraken</label><br/>
+        
+            <input type="radio" id="sasquatch" name="monster">
+            <label for="sasquatch">Sasquatch</label><br/>
+        
+            <input type="radio" id="mothman" name="monster">
+            <label for="mothman">Mothman</label>
+          </fieldset>
+          <label for="ice-cream-choice">Choose a flavor:</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+    <datalist id="ice-cream-flavors">
+        <option value="Chocolate">
+        <option value="Coconut">
+        <option value="Mint">
+        <option value="Strawberry">
+        <option value="Vanilla">
+    </datalist>
     </form>
 </body>
 </html>
