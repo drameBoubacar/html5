@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Liste des éléments html que je dois apprendre par coeur </h1>
-    <h2>Les listes </h2>
+    <h2>Les listes</h2>
     <h3>Les listes ordonnées</h3>
     <p>Code</p>
     <pre>
@@ -25,7 +25,7 @@
     </pre>
     <p>Aperçu</p>
     <div>
-        <ol start="17" type="I">
+        <ol start="17" type="a">
             <li>Mix flour, baking powder, sugar, and salt.</li>
             <li>In another bowl, mix eggs, milk, and oil.</li>
             <li>Stir both mixtures together.</li>
@@ -49,10 +49,10 @@
     </code>
     <p>Aperçu</p>
     <div>
-        <ul line-height="100%" type="square">
+        <ul type="square">
             <li>Milk</li>
             <li>Cheese
-                <ul type="triangle">
+                <ul>
                     <li>Blue cheese</li>
                     <li>Feta</li>
                 </ul>
@@ -62,12 +62,26 @@
     <h3>Les listes de definitions</h3>
     <p>Code</p>
     <code>
-        
+        &lt;dl&gt;
+            &lt;dt&gt;Firefox&lt;/dt&gt;
+            &lt;dd&gt;
+            Un navigateur Web libre, open-source, multi-plateforme
+            dévelopé par la Mozilla Corporation et des centaines de
+            volontaires.
+            &lt;dd&gt;
+        &lt;dl&gt;
     </code>
     <p>Aperçu</p>
     <div>
-
-    </div>
+        <dl>
+            <dt>Firefox</dt>
+            <dd>
+              Un navigateur Web libre, open-source, multi-plateforme
+              dévelopé par la Mozilla Corporation et des centaines de
+              volontaires.
+            </dd>
+          </dl>
+    </div><br><br>
     <h2>Les liens</h2>
     <p>Code</p>
     <pre>
@@ -80,12 +94,30 @@
         &lt;a href="#" target="_blank"&gt;Ceci est un lien qui s'ouvre dans une nouvelle fenetre&lt;/a&gt;
         </code>
     </pre>
+    <pre>
+        <code>
+        &lt;a href="https://www.google.com/"&gt;Ceci est un lien qui pointent vers une URL absolu&lt;/a&gt;
+        </code>
+    </pre>
+    <pre>
+        <code>
+        &lt;a href=""  download="" &gt;Ceci est un lien qui permet de telecharger un fichier&lt;/a&gt;
+        </code>
+    </pre>
     <p>Aperçu</p>
     <div>
-        <a href="#">Ceci est un lien</a>
+        <a href="">Ceci est est lien</a>
+        <a href="" target="_blank">Ceci est un lien qui s'ouvre dans une nouvelle fenetre</a>
+        <a href="https://www.google.com/">Ceci est un lien qui pointent vers une URL absolu</a>
+        <a href="" download="">download</a>
+        <a href="" rel=""></a>
     </div>
-    <div>
-        <a href="#" target="_blank">Ceci est un lien qui s'ouvre dans une nouvelle fenetre</a>
-    </div>
+    <h2>Les boutons</h2>
+    <p>Code</p>
+    <pre>
+        <code>
+        &lt;a href="#"&gt;Ceci est un lien&lt;/a&gt;
+        </code>
+    </pre>
 </body>
 </html>
