@@ -7,83 +7,147 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" >
-        <label for="name1">AAA</label>
-        <input type="text" 
-               id="name2" name="name1" 
-               required
-               minlength="4" 
-               maxlength="6" 
-               size="100"
-        >
-        <input type="text" value="aaaaaa">
-        <input type="text" placeholder="Ecrivez">
-        <input type="button" value="">
-        <input type="checkbox" name="" id="">
-        <input type="color" name="" id="">
-        <input type="file">
-        <input type="hidden">
-        <input type="date">
-        <input type="email" name="" id="">
-        <input type="datetime-local" name="" id="">
-        <input type="image">
-        <input type="month">
-        <input type="number">
-        <input type="passsword">
-        <input type="radio" checked>
-        <input type="range">
-        <input type="reset">
-        <input type="search">
-        <input type="tel">
-        <input type="time">
-        <input type="url">
-        <input type="week">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <select>
-            <option value="">ferrari</option>
-            <option value="">lamborghini</option>
-            <option value="">aston martin</option>
-        </select>
-        <select>
-            <optgroup label="voiture">
-                <option value="">ferrari</option>
-                <option value="">lamborghini</option>
-                <option value="">aston martin</option>
-            </optgroup>
-            <optgroup label="fruits">
-                <option value="">fraise</option>
-                <option value="">banane</option>
-                <option value="">kiwi</option>
-            </optgroup>
-        </select>
-        <button type="button" autofocus></button>
-        <button autocomplete="on"></button>
-        <button disabled></button>
-        <input type="submit">
-        <button formenctype=""></button>
-        <progress id="file" max="100" value="70"> 70% </progress>
-        <fieldset>
-            <legend>Choose your favorite monster</legend>
-        
-            <input type="radio" id="kraken" name="monster">
-            <label for="kraken">Kraken</label><br/>
-        
-            <input type="radio" id="sasquatch" name="monster">
-            <label for="sasquatch">Sasquatch</label><br/>
-        
-            <input type="radio" id="mothman" name="monster">
-            <label for="mothman">Mothman</label>
-          </fieldset>
-          <label for="ice-cream-choice">Choose a flavor:</label>
-    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
-    <datalist id="ice-cream-flavors">
-        <option value="Chocolate">
-        <option value="Coconut">
-        <option value="Mint">
-        <option value="Strawberry">
-        <option value="Vanilla">
-    </datalist>
-    </form>
+                                <!-- LE FORMULAIRE -->
+   <h1>Le formulaire</h1>
+   <p>Code :</p>
+   <pre>
+       <code>
+           &lt;form action="" 
+               method="get" 
+               autocomplete="on" 
+               autocapitalize="sentences"&gt;
+            &lt;input type="text"&gt;
+           &lt;/form&gt;
+       </code>
+   </pre>
+   <h2>Apercu</h2>
+   <form action=""
+         method="post"
+         name="send-data"
+         target="_blank"
+         enctype="application/x-www-form-urlencoded"
+         rel="noopeener"
+         value="DATA"
+         >
+        <input type="text">
+        <button formnovalidate>send</button>
+   </form>
+
+
+
+<p>Code</p>
+<pre>
+    <code>
+        &lt;form accept-charset&gt;&lt;/form&gt;
+    </code>
+</pre>
+
+                                <!-- LES BOUTONS -->
+
+<p>Code</p>
+  <pre>
+      <code>
+          &lt;button autofocus&gt;Bouton avec le focus&lt;/button&gt;
+      </code>
+  </pre>
+
+  <h3>Apercu</h3>
+  <button autofocus>
+    button avec le focus 
+  </button>
+  
+
+
+
+  <p>Code</p>
+  <pre>
+      <code>
+          &lt;button disabled&gt;Désactiver&lt;/button&gt;
+      </code>
+  </pre>
+  <h3>Apercu</h3>
+  <button disabled>Désactiver</button>
+
+
+
+
+
+  <p>Code</p>
+  <pre>
+      <code>
+          &lt;button type="submit"&gt;Envoyer&lt;/button&gt;
+      </code>
+  </pre>
+  <h3>Apercu</h3>
+  <button type="submit">Envoyer</button>
+
+
+
+
+
+
+  <p>Code</p>
+  <pre>
+      <code>
+          &lt;button type="reset"&gt;Reset&lt;/button&gt;
+      </code>
+  </pre>
+  <h3>Apercu</h3>
+  <button type="reset">Reset</button>
+
+
+
+
+
+  <p>Code</p>
+  <pre>
+      <code>
+          &lt;button type="button"&gt;button&lt;/button&gt;
+      </code>
+  </pre>
+  <h3>Apercu</h3>
+  <button type="button">Button</button>
+  
+
+
+
+
+<p>Code</p>
+<pre>
+    <code>
+        &lt;form id="send"&gt;
+            &lt;input type="text"&gt;
+        &lt;/form&gt;
+        &lt;button form="send"&gt;send&lt;/button&gt;
+    </code>
+</pre>
+<p>Apercu</p>
+<form id="send">
+    <input type="text">
+</form>
+<button form="send" formnovalidate>send</button>
+
+
+
+
+
+
+
+
+   <h1>Le dialog</h1>
+   <p>Code :</p>
+   <pre>
+       <code>
+           &lt;dialog open&gt;
+           &lt;/dialog&gt;
+       </code>
+   </pre>
+<dialog open>
+
+</dialog>
+
+
+   
 </body>
 </html>
 
