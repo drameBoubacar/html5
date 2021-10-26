@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
         table, th, tr, td{
             border: 1px solid #000000;
@@ -12,51 +13,104 @@
     </style>
 </head>
 <body>
-   <table cellspacing="10">
+   <table>
        <thead>
-        <tr>
-            <th rowspan="2" colspan="1"></th>
-            <th rowspan="2" colspan="2">ID</th>
-            <th colspan="2">identité</th>
-            <th>groupe</th>
-            <th></th>
-        </tr>
-        <tr>
-            <td>nom</td>
-            <td>prénom</td>
-            <td rowspan="4"></td>
-            <td rowspan="6" colspan="3"></td>
-        </tr>
-        <tr>
-            <th>boubacar</th>
-            <td>1</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>rafik</th>
-            <td>2</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>haspinder</th>
-            <td>3</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>anis</th>
-            <td>4</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>s</td>
-        </tr>
+           <tr>
+               <th rowspan="2"></th>
+               <th rowspan="2">ID</th>
+               <th colspan="2">identité</th>
+               <th rowspan="2">groupe</th>
+               <th rowspan="2">Action</th>
+           </tr>
+           <tr>
+               <td>nom</td>
+               <td colspan="">prénom</td>
+           </tr>
        </thead>
-   </table>    
+
+       <tbody>
+           <tr>
+               <td>BD</td>
+               <td>1</td>
+               <td>DRAME</td>
+               <td>Boubacar</td>
+               <td rowspan="2">OK</td>
+               <td rowspan="5">?</td>
+           </tr>
+           <tr>
+                <td>RK</td>
+                <td>2</td>
+                <td>KELLAOUI</td>
+                <td>Rafik</td>
+           </tr>
+           <tr>
+            <td>HS</td>
+            <td>3</td>
+            <td>SINGH</td>
+            <td>Haspinderjit</td>
+            <td rowspan="2">KO</td>
+           </tr>
+           <tr>
+               <td>AEO</td>
+               <td>4</td>
+               <td>EL OUDI</td>
+               <td>Anis</td>
+               
+           </tr>
+       </tbody>
+   </table>
+
+<form>
+    <fieldset>
+        <legend>Login</legend>
+        <label for="login" >login</label>
+        <div>
+            <input type="text" id="login">
+        </div>
+        <label for="password">password</label>
+        <div>
+            <input type="password" name="" id="password">
+        </div>
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+    </fieldset>
+</form>
+<div>
+    <label for="captcha" >Quel mois de l'année sommes nous ?</label>
+    <input name="" 
+           id="captcha" 
+           type="text"
+           placeholder="Pour vérifier que vous êtes humain" 
+           value=""> 
+</div>
+
+
+<form>
+    <fieldset>
+        <legend>Login</legend>
+        <div>
+            <input type="text" placeholder="login">
+        </div>
+        <div>
+            <input type="password" placeholder="enter password">
+        </div>
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+        <div>
+            <a href="" target="_blank">mot de passe oublié</a>
+        </div>
+
+    </fieldset>
+</form>
+
+
+<div>
+    <label for="captcha-deux" >Quel mois de l'année sommes nous ?</label>
+    <input name="" 
+           id="captcha-deux" 
+           type="text"
+           placeholder="Pour vérifier que vous êtes humain" 
+           value=""> 
+</div>
 </body>
 </html>
