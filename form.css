@@ -8,16 +8,66 @@ h1 {
     margin: 0;
     padding: 2rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 p {
     background: #af345d;
     color: #FFFFFF;
+    font-size: 20px;
     margin: 0;
     padding: 1rem 0;
     text-align: center;
 }
 
 pre {
+    background: #f1f1f1;
+    margin: 0;
+    text-align: center;
+}
 
+h2 {
+    background:  #d6dbdf;
+    color: #af345d;
+    margin: 0;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.content-btn {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.content-btn, .form-input, input{
+    border-radius: 12px;
+}
+
+.btn-focus {
+    background: #af345d;
+    border: none;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 10px 50px;
+}
+
+.btn-disabled {
+    border: none;
+    background: #808080;
+    color: #000000;
+    padding: 10px 50px;
+}
+
+.btn-submit {
+    background: #85c1e9;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 45px;
+}
+
+.btn {
+    background: #7dcea0;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 80px;
 }
