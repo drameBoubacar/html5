@@ -1,9 +1,13 @@
 th, tr, td {
-    background: #53bdac;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     text-align: center;
 }
+
+thead {
+    background:  #34495e;
+}
+
 
 table {
     border: 1px solid #000000;
@@ -13,6 +17,14 @@ table {
     width: 80vw;
 }
 
+.category {
+    background:#34495e;
+}
+
+.category-next {
+    background:#d0d3d4;
+}
+
 .container-form {
     display: flex;
     justify-content: space-around;
@@ -20,7 +32,7 @@ table {
 }
 
 fieldset {
-    border: 3px solid #53bdac;
+    border: 1px solid #53bdac;
     border-radius: 12px;
     text-align: center;
     margin: 0 0 30px 0;
@@ -42,4 +54,33 @@ legend {
     color: #FFFFFF;
     font-weight: bold;
     padding: 5px 20px;
+}
+
+#login {
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin: 0 0 30px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#login:focus {
+    outline: none;
+}
+
+#password {
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin: 0 0 30px 0; 
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#password:focus {
+    outline: none;
+}
+
+.link-form {
+    color:#5dade2;
+    text-decoration: none;
 }
