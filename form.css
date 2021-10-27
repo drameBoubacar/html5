@@ -71,3 +71,28 @@ h2 {
     border-radius: 12px;
     padding: 10px 80px;
 }
+
+.btn-send {
+    background: #d7bde2;
+    border: 3px solid #7b241c;
+    border-radius: 12px;
+    color: #FFFFFF;
+    margin: 10px 0 0 0;
+    padding: 10px 75px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-input {
+    background:#bdc3c7;
+    margin: 20px 50px;
+    height: 22vh;
+    text-align: center;
+    width: 20vw;
+}
