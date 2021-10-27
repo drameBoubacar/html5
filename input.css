@@ -1,0 +1,45 @@
+th, tr, td {
+    background: #53bdac;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    height: 50vh;
+    margin: auto;
+    width: 80vw;
+}
+
+.container-form {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+fieldset {
+    border: 3px solid #53bdac;
+    border-radius: 12px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+fieldset button {
+    background: #53bdac;
+    border: none; 
+    border-radius: 23px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 20px 10px;
+    padding: 8px 60px;
+    text-transform: uppercase;
+}
+
+legend {
+    background: #53bdac;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 20px;
+}

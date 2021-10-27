@@ -5,11 +5,7 @@
     <title>Document</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        table, th, tr, td{
-            border: 1px solid #000000;
-        }
-    </style>
+    <link rel="stylesheet" href="input.css">
 </head>
 <body>
    <table>
@@ -59,57 +55,58 @@
        </tbody>
    </table>
 
-<form>
-    <fieldset>
-        <legend>Login</legend>
-        <label for="login" >login</label>
-        <div>
-            <input type="text" id="login">
-        </div>
-        <label for="password">password</label>
-        <div>
-            <input type="password" name="" id="password">
-        </div>
-        <button type="reset">RESET</button>
-        <button type="submit">SUBMIT</button>
-    </fieldset>
-</form>
-<div>
-    <label for="captcha" >Quel mois de l'année sommes nous ?</label>
-    <input name="" 
-           id="captcha" 
-           type="text"
-           placeholder="Pour vérifier que vous êtes humain" 
-           value=""> 
-</div>
-
-
-<form>
-    <fieldset>
-        <legend>Login</legend>
-        <div>
-            <input type="text" placeholder="login">
-        </div>
-        <div>
-            <input type="password" placeholder="enter password">
-        </div>
-        <button type="reset">RESET</button>
-        <button type="submit">SUBMIT</button>
-        <div>
-            <a href="" target="_blank">mot de passe oublié</a>
-        </div>
-
-    </fieldset>
-</form>
-
-
-<div>
-    <label for="captcha-deux" >Quel mois de l'année sommes nous ?</label>
-    <input name="" 
-           id="captcha-deux" 
-           type="text"
-           placeholder="Pour vérifier que vous êtes humain" 
-           value=""> 
-</div>  
+   <section class="container-form">
+    <div>
+        <form>
+            <fieldset>
+                <legend>Login</legend>
+                <label for="login" >login</label>
+                <div>
+                    <input type="text" id="login">
+                </div>
+                <label for="password">password</label>
+                <div>
+                    <input type="password" name="" id="password">
+                </div>
+                <button type="reset">RESET</button>
+                <button type="submit">SUBMIT</button>
+                <div>
+                    <a href="" target="_blank">mot de passe oublié</a>
+                </div>
+            </fieldset>
+        </form>
+        <label for="captcha" >Quel mois de l'année sommes nous ?</label>
+        <input name="" 
+               id="captcha" 
+               type="text"
+               placeholder="Pour vérifier que vous êtes humain" 
+               value=""> 
+    </div>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Login</legend>
+                <div>
+                    <input type="text" placeholder="login">
+                </div>
+                <div>
+                    <input type="password" placeholder="enter password">
+                </div>
+                <button type="reset">RESET</button>
+                <button type="submit">SUBMIT</button>
+                <div>
+                    <a href="" target="_blank">mot de passe oublié</a>
+                </div>
+        
+            </fieldset>
+        </form>
+        <label for="captcha-deux" >Quel mois de l'année sommes nous ?</label>
+        <input name="" 
+               id="captcha-deux" 
+               type="text"
+               placeholder="Pour vérifier que vous êtes humain" 
+               value=""> 
+    </div>  
+   </section>
 </body>
 </html>
