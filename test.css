@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+h1 {
+    background: #d5d8dc;
+    color: #5abaaa;
+    margin: 0 0 0 0;
+    padding: 30px 0;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+h2 {
+    background:#5abaaa;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h3 {
+    color:#f6c8b7;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p {
+    color:#641e16;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+pre {
+    background: #5abaaa;
+}
