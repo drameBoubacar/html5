@@ -1,26 +1,31 @@
 body {
     margin: 0;
+    text-align: center;
 }
+
 h1 {
-    background: #d5d8dc;
-    color: #5abaaa;
+    background:#d5d8dc;
+    color:#5abaaa;
     margin: 0 0 0 0;
     padding: 30px 0;
-    text-align: center;
     text-transform: uppercase; 
 }
 
 h2 {
     background:#5abaaa;
-    color: #FFFFFF;
+    color:#FFFFFF;
     margin: 0;
     padding: 10px 0;
-    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 h3 {
     color:#f6c8b7;
-    text-align: center;
     text-transform: capitalize;
 }
 
@@ -31,5 +36,34 @@ p {
 }
 
 pre {
-    background: #5abaaa;
+    white-space: pre-line;
+}
+
+.container-list-link {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    background:#5abaaa;
+    border-radius: 12px;
+    color:#FFFFFF;
+    margin: auto;
+}
+
+.link {
+    background:#5abaaa;
+    border-radius: 12px;
+    color:#FFFFFF;
+    margin: auto 20px 0 0 0;
+}
+
+.link-group a{
+    display: block;
+    color:#5dade2;
+    text-decoration: none;
+}
+
+.link-group a:hover {
+    color:#641e16;
 }
